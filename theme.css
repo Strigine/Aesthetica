@@ -1,3 +1,4 @@
+
 body {
 	--font-text-theme: Benguiat, serif;
 	--radius-s: 0px;
@@ -9,7 +10,33 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--o-border-imagewidth: 30px;
+	border: 1px solid black;
+	margin-top: 5%;
+    margin
+	margin-bottom: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+    --background-primary: #a09560;
+    background-image: url("https://images6.alphacoders.com/122/1224149.png");
 }
+
+.relative {
+	position: relative;
+	left: 30px;
+	border: 3px solid #73AD21;
+  }
+
+.theme-dark {
+	--background-primary: #18004F;
+	--background-secondary: #220070;
+  }
+  
+  .theme-light {
+	--background-primary: #f4ffe8;
+	--background-secondary: #e1d3ff;
+	
+  }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
@@ -33,3 +60,9 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+h1 {
+	background-image: url("data:image/gif;base64,R0lGODdhAQADAPABAP////8AACwAAAAAAQADAAACAgxQADs=");
+	background-color: green;
+
+  }
